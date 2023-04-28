@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="378dp"
+        android:layout_height="275dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <EditText
+            android:id="@+id/txtNumero1"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:ems="10"
+            android:hint="Colocar numero"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/txtNumero2"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:ems="10"
+            android:hint="Colocar segundo numero"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="260dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="348dp"
+
+
+
+        >
+
+        <Button
+            android:id="@+id/btnSumar"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="SUMAR" />
+
+        <Button
+            android:id="@+id/btnRestar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RESTAR" />
+
+        <Button
+            android:id="@+id/btnDividir"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:text="Dividir" />
+
+        <Button
+            android:id="@+id/btnMultiplicar"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:text="Multiplicar" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="118dp"
+        android:layout_height="30dp"
+        android:text="Resultado"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="289dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
